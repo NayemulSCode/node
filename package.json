@@ -1,7 +1,7 @@
 {
   "name": "indafbd",
   "version": "1.0.0",
-  "description": "Demo : https://insafbd.herokuapp.com/",
+  "description": " ",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -24,9 +24,7 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "start": "nodemon --watch backend --exec babel-node backend/server.js",
-    "build": "rm -rf dist && babel backend -d dist",
-    "heroku-postbuild": "npm run build && cd frontend && npm install && npm run build"
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -35,7 +33,7 @@
 
   "homepage": "https://github.com/NayemulSCode/node",
   "engines": {
-    "node": "12.11.1",
-    "npm": "6.9.0"
+    "node": "12.16.3",
+    "npm": "6.14.4"
   }
 }
